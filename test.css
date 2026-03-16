@@ -1,0 +1,66 @@
+/* 全体のベース設定 */
+body {
+  font-family: sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+main, section, header, footer, aside, nav {
+  padding: 20px;
+}
+
+/* ヘッダー */
+header {
+  background-color: #ffff99; /* 黄色系 */
+  text-align: center;
+  width: 740px;
+  height: 80px;
+}
+
+/* レイアウト（サイドバーとメイン） */
+.content-wrapper {
+  display: flex;
+  min-height: 400px;
+}
+
+/* サイドバー */
+.sidebar {
+  background-color: #99ffff; /* 水色系 */
+  width: 200px;
+  height: 400px;
+}
+/* メイン（フォームエリア） */
+main {
+  background-color: #ffebcd; /* ベージュ系 */
+  width: 500px;
+  height: 400px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px double #000000;
+  padding: 8px;
+}
+
+th {
+  background-color: #f3e1af; /* 濃いめのベージュ */
+  width: 30%;
+  text-align: center;
+}
+
+/* 送信ボタン（右寄せ） */
+.submit-area {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: rgb(179, 185, 190);
+  width: 740px;
+  height: 70px;
+}
